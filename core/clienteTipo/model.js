@@ -1,5 +1,4 @@
 const Sequelize = require('sequelize');
-const { noExtendLeft } = require('sequelize/types/lib/operators');
 const DB = require('../../database/database');
 
 const TipoCliente = DB.define(

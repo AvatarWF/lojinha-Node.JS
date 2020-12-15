@@ -22,7 +22,7 @@ app.use(cors);
 
 autenticacaoRoute(app);
 
-app.use(auth);
+//app.use(auth);
 clienteTipoRoute(app);
 
 app.get('/', (req, res) =>{
